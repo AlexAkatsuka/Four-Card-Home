@@ -1,0 +1,15 @@
+:root {
+    --primary_red: hsl(0, 78%, 62%);
+    --primary_cyan: hsl(180, 62%, 55%);
+    --primary_orange: hsl(34, 97%, 64%);
+    --primary_blue: hsl(212, 86%, 64%);
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
