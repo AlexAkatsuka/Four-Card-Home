@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 :root {
     --primary_red: hsl(0, 78%, 62%);
     --primary_cyan: hsl(180, 62%, 55%);
@@ -7,82 +8,100 @@
     --GrayishBlue: hsl(229, 6%, 66%);
     --VeryLightGray: hsl(0, 0%, 98%);
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     background-color: hsl(0, 0%, 98%);
     margin-top: 85px;
     min-height: 100vh;
 }
-main{
+
+main {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;   
+    text-align: center;
 }
-h1{
+
+h1 {
     font-weight: 200;
     color: hsl(234, 12%, 34%);
 }
-h2{
+
+h2 {
+    margin-top: 10px;
     font-weight: 600;
 }
-p{
+
+p {
+    margin-top: 20px;
     font-weight: 200;
     color: hsl(234, 12%, 34%);
 }
-.info-subhead{
+
+.info-subhead {
     padding-bottom: 7px;
 }
-.cards{
+
+.cards {
     margin-top: 50px;
-    text-align: center;   
+    text-align: center;
 }
-.box{
+
+.box {
     width: 25%;
     height: 200px;
     position: relative;
     border-radius: 5px;
     display: inline-block;
     box-shadow: 0px 10px 10px gray;
-    margin: 10px   
+    margin: 10px
 }
-img{
+
+img {
     width: 80px;
     position: absolute;
     bottom: 18px;
-    right: 12px;  
+    right: 12px;
 }
-.card-info{
+
+.card-info {
     margin-top: 15px;
     margin-left: 15px;
     text-align: left;
 }
-.supervisor{
+
+.supervisor {
     background-color: white;
     border-top: 5px solid hsl(0, 78%, 62%);
-    transform: translate(0, 50px); 
+    transform: translate(0, 50px);
 }
-.team_builder{
+
+.team_builder {
     background-color: white;
     border-top: 5px solid hsl(180, 62%, 55%);
 }
-.karma{
+
+.karma {
     background-color: white;
-    
     border-top: 5px solid hsl(212, 86%, 64%);
     transform: translate(0, 50px);
 }
-.calculator{
+
+.calculator {
     background-color: white;
     border-top: 5px solid hsl(34, 97%, 64%);
 }
